@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>DROPS</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<h1><a>DROPS</a></h1>
+		<h2><a href="">Control In Cloud</a></h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="Home.aspx">Home</a></li>
+			<li><a href="ServerLogin.aspx">Csplogin</a></li>
+			<li><a href="OwnerLogin.aspx">Owner</a></li>
+			<li><a href="UserLogin.aspx">User</a></li>
+			<li><a href="OwnerReg.aspx">NewOwner</a></li>
+			<li><a href="UserReg.aspx">NewUser </a></li>
+		</ul>
+	</div>
+</div>
+<div id="page">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    </div> 
+
+    <div id="footer">
+	<p id="legal"> <a href="">DROPS</a></p>
+	
+</div>
+</body>
+</html>
